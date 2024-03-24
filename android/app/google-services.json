@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114935592158",
+    "project_id": "oohkk-eed67",
+    "storage_bucket": "oohkk-eed67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114935592158:android:0885c49d880234fb6cfe4f",
+        "android_client_info": {
+          "package_name": "com.user.oohkk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFGVolgZ5y5HH3y6WtNMq-JJ6o37CIwWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
