@@ -12,7 +12,6 @@ import 'package:http/http.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
 
 import '../constants/constant.dart';
-import '../helper/di.dart';
 
 class BaseHttpProvider {
   final box = Hive.box('secureBox');
@@ -24,8 +23,7 @@ class BaseHttpProvider {
   static final _instance = BaseHttpProvider._();
   factory BaseHttpProvider() {
     // getitgo-backend-3zbd3vwdyq-el.a.run.app/api#/
-    _instance.host =
-        '6f7a-2409-40f2-1039-da82-7884-c014-ab1c-f58c.ngrok-free.app';
+    _instance.host = 'https://getitgo-backend-2cgarfqx4a-el.a.run.app';
 
     // _instance.host =
     //     _instance.remoteConfig.getString('${DependencyInject.buildMode}_host');
